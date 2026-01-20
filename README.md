@@ -86,25 +86,3 @@ We treat data quality as a priority. Raw logs go through a rigorous cleaning pro
  ├── 📄 logic_flow.png              (Logic Flowchart)
  └── 📄 data_pipeline.png           (Data Pipeline Flowchart)
 
-## 🚀 How to Run Locally
-
-If you want to run this project on your own machine, follow these steps:
-
-1.  **Clone the Repository**
-    ```bash
-    git clone [https://github.com/vinayr-ops/AFEWS-Aadhaar-Failure-Early-Warning-System.git](https://github.com/vinayr-ops/AFEWS-Aadhaar-Failure-Early-Warning-System.git)
-    cd AFEWS-Aadhaar-Failure-Early-Warning-System
-    ```
-
-2.  **Install Dependencies**
-    Make sure you have Python installed, then run:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the App**
-    Start the Gradio interface:
-    ```bash
-    python app.py
-    ```
-    *Open the link displayed in the terminal (usually http://127.0.0.1:7860) to view the app.*
